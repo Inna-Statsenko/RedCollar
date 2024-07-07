@@ -1,7 +1,7 @@
-@import url(./_normalize.css);
-@import url(./_fonts.css);
+@import url(./normalize.css);
+@import url(./fonts.css);
 
-@import url(./_theme.css);
+@import url(./theme.css);
 
-@import url(./components/_index.css);
-@import url(./utils/_index.css);
+@import url(./components/index.css);
+@import url(./utils/index.css);
