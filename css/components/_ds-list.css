@@ -1,0 +1,37 @@
+.ds-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ds-list_inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.ds-list_contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ds-list_contacts li {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.ds-list_contacts svg {
+    flex-shrink: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .ds-list_inline {
+        gap: 32px;
+    }
+
+    .ds-list_contacts {
+        gap: 20px;
+    }
+}

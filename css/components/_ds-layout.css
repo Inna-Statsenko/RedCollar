@@ -1,0 +1,20 @@
+.ds-layout {
+    display: flex;
+    padding: 90px 20px 58px;
+}
+
+.ds-layout_profile {
+    gap: 20px;
+    min-height: 780px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .ds-layout {
+        padding: 40px;
+    }
+
+    .ds-layout_profile {
+        gap: 32px;
+    }
+}

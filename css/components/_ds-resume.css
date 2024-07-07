@@ -1,0 +1,46 @@
+.ds-resume {
+    position: relative;
+    padding: 40px 15px 30px;
+    border: 1px solid var(--color-text-primary);
+}
+
+.ds-resume::before {
+    content: url("./../../img/ds-resume-asset.svg");
+    position: absolute;
+    left: 50%;
+    top: -1.5px;
+    display: block;
+    width: 60px;
+    height: 20px;
+    transform: translateX(-50%);
+    background-color: var(--color-bg-primary);
+}
+
+.ds-resume section:not(:first-of-type) {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--color-text-secondary);
+}
+
+.ds-resume ul {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ds-resume section:last-of-type ul {
+    flex-direction: row;
+}
+
+
+@media screen and (min-width: 768px) {
+    .ds-resume {
+        padding: 48px 28px;
+    }
+
+    .ds-resume::before {
+        top: -1.5px;
+        left: 60px;
+    }
+}
