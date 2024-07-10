@@ -16,6 +16,19 @@
 
     --unit-spacing: 8px;
 }
+     html[data-theme="light"] {
+        --color-text-primary: var(--ds-palette-black);
+        --color-text-secondary: var(--ds-palette-gray);
+        --color-bg-primary: var(--ds-palette-white);
+        --color-bg-accent: var(--ds-palette-red);
+    }
+      
+      html[data-theme="dark"] {
+        --color-text-primary: var(--ds-palette-white);
+        --color-text-secondary: var(--ds-palette-gray);
+        --color-bg-primary: var(--ds-palette-black);
+        --color-bg-accent: var(--ds-palette-red);
+    }
 
 @media screen and (min-width: 768px) {
     :root {
