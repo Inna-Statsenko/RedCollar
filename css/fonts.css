@@ -30,3 +30,14 @@
         url('./../fonts/tt-commons-500.woff') format('woff'),
         url('./../fonts/tt-commons-500.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Stem-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local('TT Commons'),
+        url('./../fonts/stem-regular.woff2') format('woff2'),
+        url('./../fonts/stem-regular.woff') format('woff'),
+        url('./../fonts/stem-regular.ttf') format('truetype');
+}

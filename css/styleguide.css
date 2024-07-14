@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+
+.ds-swatch {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.ds-swatch_color_black {
+    background-color: var(--ds-palette-black);
+}
+
+.ds-swatch_color_red {
+    background-color: var(--ds-palette-red);
+}
+
+.ds-swatch_color_white {
+    background-color: var(--ds-palette-white);
+    border: 1px solid lightgray;
+}
+
+.ds-swatch_color_gray {
+    background-color: var(--ds-palette-gray);
+}
