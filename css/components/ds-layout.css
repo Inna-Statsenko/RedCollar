@@ -13,6 +13,7 @@
 @media screen and (min-width: 768px) {
     .ds-layout {
         padding: 40px;
+        flex-direction: row;
     }
 
     .ds-layout_profile {
